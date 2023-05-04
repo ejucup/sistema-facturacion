@@ -6196,7 +6196,7 @@ function Login(_ref) {
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_Components_Label__WEBPACK_IMPORTED_MODULE_5__["default"], {
           forInput: "email",
-          value: "Email"
+          value: "Correo"
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_Components_Input__WEBPACK_IMPORTED_MODULE_4__["default"], {
           type: "text",
           name: "email",
@@ -6210,7 +6210,7 @@ function Login(_ref) {
         className: "mt-4",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_Components_Label__WEBPACK_IMPORTED_MODULE_5__["default"], {
           forInput: "password",
-          value: "Password"
+          value: "Contraseña"
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_Components_Input__WEBPACK_IMPORTED_MODULE_4__["default"], {
           type: "password",
           name: "password",
@@ -6229,7 +6229,7 @@ function Login(_ref) {
             handleChange: onHandleChange
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("span", {
             className: "ml-2 text-sm text-gray-600",
-            children: "Remember me"
+            children: "Recordar contraseña"
           })]
         })
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
@@ -6237,7 +6237,7 @@ function Login(_ref) {
         children: [canResetPassword && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_7__.Link, {
           href: route('password.request'),
           className: "underline text-sm text-gray-600 hover:text-gray-900",
-          children: "Forgot your password?"
+          children: "¿Recuperar contraseña?"
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_Components_Button__WEBPACK_IMPORTED_MODULE_1__["default"], {
           className: "ml-4",
           processing: processing,
@@ -6313,7 +6313,7 @@ function Register() {
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_Components_Label__WEBPACK_IMPORTED_MODULE_4__["default"], {
           forInput: "name",
-          value: "Name"
+          value: "Nombre"
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_Components_Input__WEBPACK_IMPORTED_MODULE_3__["default"], {
           type: "text",
           name: "name",
@@ -6328,7 +6328,7 @@ function Register() {
         className: "mt-4",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_Components_Label__WEBPACK_IMPORTED_MODULE_4__["default"], {
           forInput: "email",
-          value: "Email"
+          value: "Correo electronico"
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_Components_Input__WEBPACK_IMPORTED_MODULE_3__["default"], {
           type: "email",
           name: "email",
@@ -6342,7 +6342,7 @@ function Register() {
         className: "mt-4",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_Components_Label__WEBPACK_IMPORTED_MODULE_4__["default"], {
           forInput: "password",
-          value: "Password"
+          value: "Contraseña"
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_Components_Input__WEBPACK_IMPORTED_MODULE_3__["default"], {
           type: "password",
           name: "password",
@@ -6356,7 +6356,7 @@ function Register() {
         className: "mt-4",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_Components_Label__WEBPACK_IMPORTED_MODULE_4__["default"], {
           forInput: "password_confirmation",
-          value: "Confirm Password"
+          value: "Confirmación contraseña"
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_Components_Input__WEBPACK_IMPORTED_MODULE_3__["default"], {
           type: "password",
           name: "password_confirmation",
@@ -6370,11 +6370,11 @@ function Register() {
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_6__.Link, {
           href: route('login'),
           className: "underline text-sm text-gray-600 hover:text-gray-900",
-          children: "Already registered?"
+          children: "¿Ya esta registrado?"
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_Components_Button__WEBPACK_IMPORTED_MODULE_1__["default"], {
           className: "ml-4",
           processing: processing,
-          children: "Register"
+          children: "Registrar"
         })]
       })]
     })]
